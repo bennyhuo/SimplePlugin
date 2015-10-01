@@ -37,6 +37,7 @@
         <psi.referenceContributor implementation="com.simpleplugin.SimpleReferenceContributor"/>
         <lang.refactoringSupport language="Simple" implementationClass="com.simpleplugin.SimpleRefactoringSupportProvider"/>
         <lang.findUsagesProvider language="Simple" implementationClass="com.simpleplugin.SimpleFindUsagesProvider"/>
+        <lang.foldingBuilder language="JAVA" implementationClass="com.simpleplugin.SimpleFoldingBuilder"/>
     </extensions>
 
     <application-components>
