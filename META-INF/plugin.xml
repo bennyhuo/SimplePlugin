@@ -36,6 +36,7 @@
         <completion.contributor language="Simple" implementationClass="com.simpleplugin.SimpleCompletionContributor"/>
         <psi.referenceContributor implementation="com.simpleplugin.SimpleReferenceContributor"/>
         <lang.refactoringSupport language="Simple" implementationClass="com.simpleplugin.SimpleRefactoringSupportProvider"/>
+        <lang.findUsagesProvider language="Simple" implementationClass="com.simpleplugin.SimpleFindUsagesProvider"/>
     </extensions>
 
     <application-components>
