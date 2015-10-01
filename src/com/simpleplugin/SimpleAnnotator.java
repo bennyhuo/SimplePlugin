@@ -31,7 +31,7 @@ public class SimpleAnnotator implements Annotator {
                 } else if (properties.size() == 0) {
                     TextRange range = new TextRange(element.getTextRange().getStartOffset() + 8,
                             element.getTextRange().getEndOffset());
-                    holder.createErrorAnnotation(range, "Unresolved property");
+                    holder.createErrorAnnotation(range, "Unresolved property").registerFix(new CreatePropertyQuickFix(key));;
                 }
             }
         }
